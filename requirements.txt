@@ -1,0 +1,8 @@
+# 定时天气获取程序依赖列表
+# 安装命令：pip install -r requirements.txt
+
+# 网络请求库，用于调用天气API
+requests>=2.28.0
+
+# 定时任务库，用于实现定时获取天气
+schedule>=1.2.0
